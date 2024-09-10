@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.2.0",
-  "homepage": "https://neethirasa.github.io/my-portfolio/",
+  "homepage": "https://neethirasa.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
