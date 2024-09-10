@@ -113,7 +113,7 @@ function Home() {
 
           {/* Micro-Current Technology (MCT) Device Simulator Project */}
           <div className="project-card detailed">
-            <h3>Micro-Current Technology (MCT) Device Simulator</h3>
+            <h3> <br></br>Micro-Current Technology (MCT) Device Simulator</h3>
             <p>Developed a pain-alleviating device with micro-current technology for precise electrode application, ensuring 98% accuracy. Real-time feedback mechanisms and data logging integration enhanced the success rates by 25%.</p>
             <p><strong>Technologies:</strong> C++, Real-Time Feedback Systems</p>
             <div className="project-links">
@@ -123,7 +123,7 @@ function Home() {
 
           {/* TortoiseHareRace Project */}
           <div className="project-card detailed">
-            <h3>TortoiseHareRace</h3>
+            <h3><br></br>TortoiseHareRace</h3>
             <p>A simulation where Tortoise and Hare race to retrieve an emerald while dodging the Dragon and its hitmen. The race features dynamic interactions between the entities, written in C++.</p>
             <p><strong>Technologies:</strong> C++</p>
             <div className="project-links">
@@ -133,7 +133,7 @@ function Home() {
 
           {/* GreenScreen-FX Project */}
           <div className="project-card detailed">
-            <h3>GreenScreen-FX</h3>
+            <h3><br></br>GreenScreen-FX</h3>
             <p>Python application that merges two images by replacing the green screen in the main picture with the selected background image. Perfect for green screen effects using Python.</p>
             <p><strong>Technologies:</strong> Python</p>
             <div className="project-links">
