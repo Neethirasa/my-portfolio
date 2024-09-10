@@ -1,0 +1,47 @@
+/* Navigation Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(106, 17, 203, 0.8); /* Purple color with transparency */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase; /* Uppercase for a modern look */
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .nav-item:hover, .nav-item:focus {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    outline: none;
+  }
+  
+  .nav-item-active {
+    border-bottom: 3px solid #ffffff; /* White underline for the active menu item */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-item {
+      font-size: 14px;
+    }
+  }
