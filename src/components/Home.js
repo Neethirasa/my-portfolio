@@ -29,7 +29,7 @@ function Home() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_7mza3rb', 'template_sgg90wa', e.target, 'NR1gUyinW6lpCxKFX')
       .then((result) => {
         alert('Message sent successfully!');
       }, (error) => {
